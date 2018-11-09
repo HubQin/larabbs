@@ -24,7 +24,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" arial-expanded="false">
                             <span class="user-avatar pull-left" style="margin-right: 8px; margin-top: -5px;">
-                                <img src="https://avatars3.githubusercontent.com/u/25000531?s=460&v=4" class="imgresponsive img-circle" width="30px" height="30px">
+                                <img src="{{ Auth::user()->avatar }}" class="imgresponsive img-circle" width="30px" height="30px">
                             </span>
                             {{ Auth::user()->name }}<span class="caret"></span>
                         </a>
