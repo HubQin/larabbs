@@ -8,6 +8,7 @@
     <title>@yield('title', 'LaraBBS') - Laravel论坛</title>
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @yield('styles')
 </head>
 <body>
     <div id="app" class="{{ route_class() }}-page">
@@ -19,5 +20,6 @@
     </div>
 
     <script src="{{ asset('js/app.js') }}"></script>
+    @yield('scripts')
 </body>
 </html>
