@@ -6,7 +6,6 @@
 
 <div class="row">
 
-    @include('layouts._message')
     <div class="col-lg-3 col-md-3 hidden-sm hidden-xs user-info">
         <div class="panel panel-default">
             <div class="panel-body">
