@@ -19,6 +19,7 @@
         "overtrue/pinyin": "~3.0",
         "predis/predis": "~1.0",
         "spatie/laravel-permission": "~2.7",
+        "summerblue/administrator": "*@dev",
         "viacreative/sudo-su": "~1.1"
     },
     "require-dev": {
@@ -71,5 +72,11 @@
         "optimize-autoloader": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/administrator"
+        }
+    ]
 }
