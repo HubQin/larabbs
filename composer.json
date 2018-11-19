@@ -6,6 +6,7 @@
     "type": "project",
     "require": {
         "php": "^7.1.3",
+        "encore/laravel-admin": "^1.6",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "~6.3",
         "hieu-le/active": "~3.5",
@@ -19,7 +20,6 @@
         "overtrue/pinyin": "~3.0",
         "predis/predis": "~1.0",
         "spatie/laravel-permission": "~2.7",
-        "summerblue/administrator": "*@dev",
         "viacreative/sudo-su": "~1.1"
     },
     "require-dev": {
@@ -72,11 +72,5 @@
         "optimize-autoloader": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "packages/administrator"
-        }
-    ]
+    "prefer-stable": true
 }

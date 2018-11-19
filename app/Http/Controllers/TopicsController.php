@@ -19,7 +19,6 @@ class TopicsController extends Controller
 
 	public function index(Request $request, Topic $topic)
 	{
-        dd($topic->user()->can('manage_contents'));
 		$topics = $topic->withOrder($request->order)->paginate(20);
 		return view('topics.index', compact('topics'));
 	}
