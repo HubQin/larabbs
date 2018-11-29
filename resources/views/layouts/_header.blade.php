@@ -9,7 +9,7 @@
             </button>
 
             <a class="navbar-brand" href="{{ url('/') }}">
-                LaraBBS
+                QinBBS
             </a>
         </div>
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
